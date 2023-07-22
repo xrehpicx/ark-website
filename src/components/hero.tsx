@@ -7,7 +7,7 @@ export default component$(() => {
         <h1 class="text-8xl">Ark</h1>
         <p class="text-md">Datacenter</p>
       </section>
-      <ul class="flex flex-wrap gap-2">
+      <ul class="flex flex-wrap items-center justify-center gap-2">
         <ServiceLink href="https://ark.cialabs.tech">Ark Proxmox</ServiceLink>
         <ServiceLink href="https://vault.cialabs.tech">VaultWarden</ServiceLink>
         <ServiceLink href="https://rpad.cialabs.tech">
