@@ -1,13 +1,25 @@
 import { Slot, component$ } from "@builder.io/qwik";
+import { Arklogo } from "./logo";
 
 export default component$(() => {
   return (
-    <div class="h-screen gap-2 flex flex-col items-center justify-center text-foreground">
-      <section class="flex flex-col items-center justify-center">
-        <h1 class="text-8xl">Ark</h1>
-        <p class="text-md">Datacenter</p>
+    <div class="container mx-auto flex h-screen max-w-xl flex-col justify-center gap-2 text-foreground">
+      <section class="flex flex-col justify-center">
+        <div class="flex items-center gap-2">
+          <Arklogo />
+          <h1 class="text-4xl">Ark</h1>
+        </div>
+        <p class="text-md">
+          Datacenter hosted by{" "}
+          <a
+            class="text-primary hover:underline"
+            href="mailto:ark@cialabs.tech"
+          >
+            ark@cialabs.tech
+          </a>
+        </p>
       </section>
-      <ul class="flex flex-wrap items-center justify-center gap-2">
+      <ul class="flex flex-wrap items-center gap-2">
         <ServiceLink href="https://ark.cialabs.tech">Ark Proxmox</ServiceLink>
         <ServiceLink href="https://vault.cialabs.tech">VaultWarden</ServiceLink>
         <ServiceLink href="https://rpad.cialabs.tech">
@@ -25,7 +37,7 @@ const ServiceLink = component$<{ href: string }>(({ href }) => {
   return (
     <a
       href={href}
-      class="border px-4 py-3 border-sky-400 rounded-md"
+      class="rounded-md border border-primary/20 px-4 py-3 shadow-primary hover:shadow-md"
       target="_blank"
     >
       <Slot />
