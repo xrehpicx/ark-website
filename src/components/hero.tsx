@@ -1,5 +1,5 @@
 import { Slot, component$ } from "@builder.io/qwik";
-import { Arklogo } from "./logo";
+import { Arklogo } from "./react-utils";
 
 export default component$(() => {
   return (
@@ -9,7 +9,7 @@ export default component$(() => {
           <Arklogo />
           <h1 class="text-4xl">Ark</h1>
         </div>
-        <p class="text-md">
+        <p class="text-md text-foreground/80">
           Datacenter hosted by{" "}
           <a
             class="text-primary hover:underline"
@@ -37,7 +37,7 @@ const ServiceLink = component$<{ href: string }>(({ href }) => {
   return (
     <a
       href={href}
-      class="rounded-md border border-primary/20 px-4 py-3 shadow-primary hover:shadow-md"
+      class="rounded-md border border-primary/20 px-4 py-3"
       target="_blank"
     >
       <Slot />
