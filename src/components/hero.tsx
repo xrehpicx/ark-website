@@ -22,8 +22,8 @@ export default component$(() => {
       <ul class="flex flex-wrap items-center gap-2">
         <ServiceLink href="https://ark.cialabs.tech">Ark Proxmox</ServiceLink>
         <ServiceLink href="https://vault.cialabs.tech">VaultWarden</ServiceLink>
-        <ServiceLink href="https://rpad.cialabs.tech">
-          Rust Pastebin
+        <ServiceLink href="https://bin.cialabs.tech">
+          Collaborative Pastebin
         </ServiceLink>
         <ServiceLink href="https://OpenWrt.cialabs.tech">OpenWrt</ServiceLink>
         <ServiceLink href="https://switch1.cialabs.tech">Switch</ServiceLink>
