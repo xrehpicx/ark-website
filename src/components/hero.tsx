@@ -3,7 +3,7 @@ import { Arklogo } from "./react-utils";
 
 export default component$(() => {
   return (
-    <div class="container mx-auto flex h-screen max-w-xl flex-col justify-center gap-2 text-foreground">
+    <div class="container mx-auto flex h-screen max-w-xl flex-col justify-center gap-2 px-4 text-foreground">
       <section class="flex flex-col justify-center">
         <div class="flex items-center gap-2">
           <Arklogo />
