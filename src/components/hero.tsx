@@ -37,7 +37,7 @@ const ServiceLink = component$<{ href: string }>(({ href }) => {
   return (
     <a
       href={href}
-      class="rounded-md border border-primary/20 px-4 py-3 hover:border-primary"
+      class="rounded-md border border-primary/20 px-4 py-3 transition-all hover:border-primary"
       target="_blank"
     >
       <Slot />
