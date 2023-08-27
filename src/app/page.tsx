@@ -11,11 +11,11 @@ export default function Home() {
         </div>
       </div>
       <header className="max-w-md relative z-10 pt-[40vh] mx-auto">
-        <div className="flex items-center mb-1 gap-1">
+        <div className="flex items-center justify-center mb-1 gap-1">
           <ArkLogo width={18} height={18} />
           <p className="font-display font-medium leading-tight text-lg">Ark</p>
         </div>
-        <div className="flex flex-wrap items-center gap-1">
+        <div className="flex flex-wrap items-center justify-center max-w-sm mx-auto gap-1">
           <ServiceLink href="https://ark.cialabs.tech">Ark Proxmox</ServiceLink>
           <ServiceLink href="https://vault.cialabs.tech">
             VaultWarden
