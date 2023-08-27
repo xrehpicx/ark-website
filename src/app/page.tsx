@@ -11,7 +11,7 @@ export default function Home() {
         </div>
       </div>
       <header className="max-w-md relative z-10 pt-[40vh] mx-auto">
-        <div className="flex items-center justify-center mb-1 gap-1">
+        <div className="flex items-center justify-center md:mb-1 mb-8 gap-1">
           <ArkLogo width={18} height={18} />
           <p className="font-display font-medium leading-tight text-lg">Ark</p>
         </div>
@@ -38,7 +38,7 @@ function ServiceLink({ href, children }: PropsWithChildren<{ href?: string }>) {
   return (
     <a
       href={href}
-      className="rounded-md border border-primary/20 px-2 py-1 text-xs transition-all hover:border-accent"
+      className="rounded-md border border-primary/20 md:px-2 md:py-1 md:text-xs text-lg px-4 py-3 transition-all hover:border-accent"
       target="_blank"
     >
       {children}
