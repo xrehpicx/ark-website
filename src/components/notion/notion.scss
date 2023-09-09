@@ -1,0 +1,26 @@
+.notion-list {
+  @apply text-sm;
+}
+.notion-text {
+  @apply text-sm;
+}
+.notion-page {
+  @apply p-0;
+}
+
+.notion-bookmark {
+  @apply rounded-lg border md:flex-row flex-col-reverse;
+
+  & > div:first-child {
+    @apply flex-none md:flex-1 md:basis-36;
+  }
+  .notion-bookmark-title {
+    @apply font-bold text-lg;
+  }
+  .notion-bookmark-link {
+    @apply opacity-60;
+  }
+  .notion-bookmark-image {
+    @apply block;
+  }
+}
