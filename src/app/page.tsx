@@ -14,7 +14,7 @@ export default async function Home() {
     <main className="min-h-screen bg-background">
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="w-full h-full relative">
-          <div className="graph-grid bg-gradient-to-t from-black w-full h-full to-transparent"></div>
+          <div className="graph-grid bg-gradient-to-t from-black/40 w-full h-screen to-transparent"></div>
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-background to-transparent" />
         </div>
       </div>
