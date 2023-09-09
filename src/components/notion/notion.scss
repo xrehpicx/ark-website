@@ -1,8 +1,11 @@
 .notion-list {
   @apply text-sm;
+
+  text-wrap: balance;
 }
 .notion-text {
   @apply text-sm;
+  text-wrap: balance;
 }
 .notion-page {
   @apply p-0;

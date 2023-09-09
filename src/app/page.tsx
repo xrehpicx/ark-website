@@ -25,7 +25,10 @@ export default async function Home() {
             {title}
           </p>
         </div>
-        <StyledNotion blockId="7fba3b3b6a104bbc8b590105f0e3c479" />
+        <StyledNotion
+          className="text-balanced"
+          blockId="7fba3b3b6a104bbc8b590105f0e3c479"
+        />
         <Services />
       </header>
     </main>
