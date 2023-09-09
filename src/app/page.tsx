@@ -4,6 +4,11 @@ import { NotionAPI } from "notion-client";
 import { getPageTitle } from "notion-utils";
 import { PropsWithChildren } from "react";
 
+export const metadata = {
+  title: "Ark",
+  description: "cialabs datacenter",
+};
+
 export default async function Home() {
   const notion = new NotionAPI();
 
